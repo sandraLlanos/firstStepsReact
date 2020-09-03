@@ -2,9 +2,9 @@ import React from 'react'
 import ReactDOM from 'react-dom';
 // import PrimeraApp from './PrimeraApp';
 // import PrimeraAppVariables from './PrimeraAppVariables';
-import PrimeraAppProps from './PrimeraAppProps';
+// import PrimeraAppProps from './PrimeraAppProps';
 // import PrimeraAppProtoTypes from './PrimeraAppProtoTypes';
-// import CounterApp from './CounterApp';
+import CounterApp from './CounterApp';
 import './index.css';
 
 /**cuando uso etiqueteas html en el archivo js se vuelve un jsx
@@ -29,6 +29,7 @@ console.log(divRoot);
 
 /** En este caso estoy llamando el compenente  */
 // ReactDOM.render(<PrimeraAppProps />, divRoot)
-ReactDOM.render(<PrimeraAppProps saludo="hola soy Sandra" />, divRoot)
-// ReactDOM.render(<CounterApp value={123} />, divRoot)
+// ReactDOM.render(<PrimeraAppProps saludo="hola soy Sandra" />, divRoot)
+// ReactDOM.render(<PrimeraAppProtoTypes saludo="hola soy Sandra" />, divRoot)
+ReactDOM.render(<CounterApp value={10} />, divRoot)
 
