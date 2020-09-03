@@ -16,6 +16,7 @@ const PrimeraAppProps = ( {saludo = 'hola mundo'} ) => { //pasando un valor por 
        <>
           {/* <h1>{ props.saludo }</h1> */}
           <h1>{ saludo }</h1>
+          <p>Mi primer aplicación</p>
           
        </>
     );
